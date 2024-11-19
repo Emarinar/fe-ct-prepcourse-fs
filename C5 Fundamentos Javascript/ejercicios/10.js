@@ -6,6 +6,11 @@ function devolverString(string) {
   // "hola mundo" ---> "hola mundo" 
   // "SoyHenry" ---> "SoyHenry" 
   // Tu código:
+  if (string === "string") {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 module.exports = devolverString;
